@@ -53,6 +53,50 @@ ul.twitter li{list-style-type:circle}
 .feed{margin:0 10px}
 .env{border:0;padding:10px 10px 25px;color:#000;margin:0;font-size:5em;text-transform:uppercase;width:232px;height:10px;background-color:#fff;text-align:center}
 
+/* The alert message box */
+.closed {
+	width:550px;
+	height:550px;
+	display:block;
+    padding: 50px 50px 50px 50px;
+    position:fixed;
+    margin-left:-325px;
+    left:50%;
+	margin-top:-325px;
+	top:50%;
+    background-color: #fff;
+    color: 000;
+    font-size:1.5em;
+    border-radius: 350px;
+    -webkit-box-shadow: 0 0 25em 30em #fff; /* 50 */-moz-box-shadow: 0 0 25em 30em #fff; /* 50 */box-shadow: 0 0 25em 30em #fff; /* 50 */
+    text-align:center;
+}
+
+/* The close button */
+.closebtn {
+    margin-right: -20px;
+    margin-top:-20px;
+    color: #F1A6BB;
+    font-weight: bold;
+    float: right;
+    font-size: 3em;
+    line-height: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: #F1A6BB;
+}
+
+.sorry {float:left;width:100%;height:auto;text-align:center;display:block;padding:0 0 20px 0;}
+
+.title {text-align:center;font-size:2em;font-weight:bold;color:#F1A6BB;}
+.subt {text-align:center;font-size:1em;font-weight:bold;color:#F1A6BB;}
+.booktitle {font-weight:bold;color:#F1A6BB;font-style:italic;}
+
+
 #lbOverlay{position:absolute;left:0;width:100%;background-color:#000;cursor:pointer}
 #lbCenter,#lbBottomContainer{position:absolute;left:50%;overflow:hidden;background-color:#fff}
 .lbLoading{background:#fff url(loading.gif) no-repeat center}
